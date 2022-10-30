@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.head {}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 6px;
+
+}
+
+.mid {
+    
+    display: block;
+    
+    width: 45%;
+    border: 2px solid yellow;
+    border-radius: 35px;
+    margin: 20px auto;
+    float: top;
+
+
+}
+
+#text {
+    position: relative;
+    top: 123px;
+    left: 85px;
+    font-size: 57px;
+    color: white;
+}
+
+
+
+span {
+    color: yellow;
+
+}
+
+#image {
+
+    position: relative;
+    right: -902px;
+    top: -268px;
+
+
+
+}
+
+.nav li {
+    display: inline-block;
+
+    top: 2px;
+
+}
+
+.nav li a {
+
+    text-decoration: none;
+
+    font-size: 25px;
+    color: white;
+    margin: 9px 11px;
+    padding: 1px 11px;
+
+}
+
+.nav li a:hover,
+.username:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+#L {
+    border-radius: 12px;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    height: 629px;
+    width: 1339px;
+    text-decoration: none;
+}
+
+.second,
+.third,
+.fourth {
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    position: relative;
+    width: 18%;
+    margin: 2px auto;
+    text-decoration: underline;
+}
+
+#about,
+#pro {
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+#insta,
+#mail,
+#linkedin {
+    display: inline-block;
+    width: 126px;
+    height: 124px;
+}
+
+.username {
+    position: relative;
+    top: -170px;
+    left: 200px;
+    font-size: 60px;
+    color: white;
+
+}
+
+.size {
+    width: 1339px;
+    height: 157px;
+}
